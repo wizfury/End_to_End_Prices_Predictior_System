@@ -21,7 +21,7 @@ First step is always to load the data
 
 # EDA (Exploratory Data Analysis):
 
-    ** Strategy Design pattern
+    ## Strategy Design pattern
         Supppose, developing a e-commerce application. The context is same but the startegy differs.
 
     1. Data Type Analysis:
