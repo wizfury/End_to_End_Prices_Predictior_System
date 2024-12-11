@@ -43,5 +43,30 @@ First step is always to load the data
             -The distribution of Gr Live Area shows mean of 1499 sqft with wide range, which could significantly impact SalesPrice.
 
         b. Categorically Features:
+            - Neighborhood has 28 unique values with NAmes being the most common, suggesting some neighborhoods might dominate the dataset.
+
+            - MS Zoning is Mostly RL(Residential low density), with 7 unique zoning types.
+
         
-    3. Missing Value Analysis
+    3. Missing Value Analysis(Heatmap Insights)
+
+        a. Colors Represent Missingness:
+            - Yellow: Represent missing values. The more the yellow you see in a column, the more missing data is present in that particular feature.
+            - Purple: Represents non-missing values. Columns that are mostly purple indicate that most of the data is present in that feature.
+
+        b. Identifying Columns with Missing Data:
+            - Look for columns with significant amount of yellow. These columns have a higher properties of missing data.
+        
+        c. Understanding the distribution of missinf values:
+            - Randomly Distributed: If the yellow marks are scattered without any noticeable pattern, it suggests that the missing data might be randomly distributed.
+
+            - Structures Missingness: If the yellow clustered in certain rows or columns it might indicate a non- random pattern of missingness.
+
+        d. Assessing the Severity:
+            - In the heatmap. some columns have little to no missing values, while others have subsequential missingness. Decisions will need to be made whether to impute, drop, or handle these features differently.
+
+    4. Issues to be addressed:
+        
+
+
+
